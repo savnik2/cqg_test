@@ -1,7 +1,5 @@
 import sys
 import re
-from collections import defaultdict
-
 def read_config(config_file):
     replacements = {}
     with open(config_file, 'r') as f:
